@@ -14,12 +14,12 @@
 #define OFF_THRESHOLD  25.0
 
 /* ---------------- WIFI ---------------- */
-const char* ssid = "Galaxy A16 5G 3987";
-const char* password = "samusanni";
+const char* ssid = "...";
+const char* password = "..";
 
 /* ---------------- TELEGRAM ---------------- */
-#define BOT_TOKEN "8586133903:AAGIZZSgmgPviIhJlp1CI1W9Bm438bPIDrM"
-#define CHAT_ID  "8116820286"
+#define BOT_TOKEN "..."
+#define CHAT_ID  "..."
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOT_TOKEN, client);
